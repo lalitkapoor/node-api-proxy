@@ -1,0 +1,19 @@
+[{
+  "type": "transform",
+  "collection": "popular",
+  "field": "points",
+  "repo": "lalitkapoor/kim-transform-extract-digits"
+},
+{
+  "type": "transform",
+  "collection": "popular",
+  "field": "comments",
+  "repo": "lalitkapoor/kim-transform-extract-digits"
+},
+{
+  "type": "filter",
+  "collection": "popular",
+  "field": "comments",
+  "repo": "lalitkapoor/kim-filter-less-than",
+  "args": [5]
+}]
